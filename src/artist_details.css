@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h2{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    margin-left: 2em;
+}
+
+
+img {
+    width: 350px;
+    height:350px ;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+    border-radius:5px;
+    border: 1px solid white;
+}
+
+.name-artist{
+    width: 300px;
+    color:black;
+    font-size:17pt;
+    font-weight:bold;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    border: 1px solid gray;
+    border-radius:5px;
+    margin-left:3em;
+    margin-top: 1em;
+    background-color:white;
+}
+
+.name-artist a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.bio{
+    color:black;
+    font-family: "Helvetica Neue";
+    width: 900px;
+    height:250px;
+    border: 1px solid gray;
+    border-radius:5px;
+    background-color: white;
+    overflow:auto;
+}
+
+p, .bio{
+    padding: 1em;
+}
+
+.description{
+    font-family:"Helvetica Neue";
+    font-size:11pt;
+    border: 1px solid black;
+    border-radius:5px;
+    color: black;
+    overflow:auto;
+    background-color: white;
+}
+
+.cover{}
+
+.full-contain{
+    display: flex;
+}
+
+.all{
+    height: 950px;
+    background-color: black;
+}
+
+.container1, .container2{
+    display: inline-block;
+}
+
+.container2{
+    margin-top: 5% ;
+}
+
+
+.container-img{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-img li{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 2em;
+    width: 190px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 2em;
+}
+
+.container-img li:hover{
+    background-color:darkgreen;
+}
+
+.name-album a{
+    color: black;
+}
+.name-album a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+}
+.flex{
+    display: flex;
+}
+
+.flex h2 {
+    margin-top: 1em;
+}
+
+.container-album {
+    background-color: black;
+}
+
+.container-album h2{
+    display: flex;
+}
+
+.container-album img {
+    margin-left: 20em;
+    display: flex;
+    width: 350px;
+    height:350px ;
+    border-radius:5px;
+    border: 1px solid white;
+    box-shadow: 10px 5px 5px white;
+}
+
+.container-album p {
+    margin-top: 2%;
+    font-family: "Helvetica Neue";
+    font-size:12pt;
+    text-align: justify;
+}
+
+.container-album label h5{
+    color: white;
+    margin-left: 2em;
+    justify-content: center;
+}
+
+.center h5 {
+    margin-left: 2em;
+    color: white;
+}
+
+.center p {
+    margin-left: 2em;
+}
+
+.center1 h5 {
+    margin-left: 2em;
+    color: white;
+}
+
+.center1 p {
+    margin-left: 4em;
+}
+
+
+.container-artist {
+    background-color: black;
+}
+
+.round {
+    border: 1px solid white;
+    box-shadow: 2px 1px 2px white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+

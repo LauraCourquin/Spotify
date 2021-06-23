@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+.flex{
+    display: flex;
+}
+
+.flex h2 {
+    margin-top: 1em;
+}
+
+.container-album {
+    background-color: black;
+}
+
+.container-album h2{
+    display: flex;
+}
+
+.container-album img {
+    margin-left: 20em;
+    display: flex;
+    width: 350px;
+    height:350px ;
+    border-radius:5px;
+    border: 1px solid white;
+    box-shadow: 10px 5px 5px white;
+}
+
+.container-album p {
+    margin-top: 2%;
+    font-family: Times;
+    font-size:12pt;
+    text-align: justify;
+}
+
+.container-album label h5{
+    color: white;
+    margin-left: 2em;
+    justify-content: center;
+}
+
+.center h5 {
+    margin-left: 2em;
+    color: white;
+}
+
+.center p {
+    margin-left: 2em;
+}
+
+.center1 h5 {
+    margin-left: 2em;
+    color: white;
+}
+
+.center1 p {
+    margin-left: 4em;
+}
+
+
+.container-artist {
+    background-color: black;
+}
+
+.round {
+    border: 1px solid white;
+    box-shadow: 2px 1px 2px white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.container{
+
+    margin-top: 2em;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

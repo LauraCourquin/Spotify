@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+}
+
+#genre{
+    display: flex;
+    padding: 1em;
+    margin-top: 2em;
+}

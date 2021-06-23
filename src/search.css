@@ -1,0 +1,36 @@
+.all-radio{
+    margin-left:40%;
+}
+
+.radio1, .radio2, .radio3{
+    display: inline-block;
+    padding: 2em;
+}
+
+label{
+    margin-right:1em;
+    font-family: helvetica;
+    font-size:14pt;
+    font-weight: bold;
+}
+
+
+input[type=search]{
+    border: 1px solid black;
+    border-radius:5px;
+    outline:none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:250px;
+}
+
+.block2
+{
+    min-height: 500px;
+    padding-top:2em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
